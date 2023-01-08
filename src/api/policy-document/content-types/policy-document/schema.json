@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "policy_documents",
+  "info": {
+    "singularName": "policy-document",
+    "pluralName": "policy-documents",
+    "displayName": "Policy Document",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "singlePolicy": {
+      "displayName": "Policy",
+      "type": "component",
+      "repeatable": true,
+      "component": "policy-category.policy"
+    }
+  }
+}
