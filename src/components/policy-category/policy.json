@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_policy_category_policies",
+  "info": {
+    "displayName": "Policy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
